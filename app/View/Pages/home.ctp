@@ -5,9 +5,6 @@
  * @since         CakePHP(tm) v 0.10.0.1076
  */
 
-echo 'hello world';
-
-
 if (!Configure::read('debug')):
 	throw new NotFoundException();
 endif;

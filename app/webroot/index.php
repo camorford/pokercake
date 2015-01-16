@@ -21,9 +21,6 @@
 /**
  * Use the DS to separate the directories in other defines
  */
-
-echo 'hello world';
-
 if (!defined('DS')) {
 	define('DS', DIRECTORY_SEPARATOR);
 }
